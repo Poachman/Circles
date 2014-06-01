@@ -93,7 +93,7 @@ void Pattern::updateDisplay(bool sendToOutput)
 
 void Pattern::blankCircleArrays()
 {
-	for (int i = 0; i < LEDS_PER_STRIP; i++)
+	for (int i = 2; i < LEDS_PER_STRIP; i++)
 	{
 		ledsLeft[i] = hBlack;
 		ledsRight[i] = hBlack;
